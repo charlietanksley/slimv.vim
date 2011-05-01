@@ -46,7 +46,7 @@ endif
 
 " I like having the leader mapped to , for this:
 if !exists( 'maplocalleader' )
-  maplocalleader = ','
+  let maplocalleader = ','
 endif
 
 " =====================================================================
