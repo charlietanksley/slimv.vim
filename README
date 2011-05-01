@@ -1,4 +1,8 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=2531
+This is a fork of https://github.com/vim-scripts/slimv.vim, which is a mirror of http://www.vim.org/scripts/script.php?script_id=2531.
+
+At present, this fork is quite radical: it removes all but one of slimv's features---the paredit plugin.
+
+None of this is true anymore.
 
 Slimv is a SWANK client for Vim, similarly to SLIME for Emacs. SWANK is a TCP server for Emacs, which runs a Common Lisp or Clojure REPL and provides a socket interface for evaluating, compiling, debugging, profiling lisp code. The SWANK server is embedded in Slimv, but you can also use your own SWANK installation.
 
