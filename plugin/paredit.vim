@@ -44,6 +44,11 @@ if !exists( 'g:paredit_shortmaps' )
     let g:paredit_shortmaps = 0
 endif
 
+" I like having the leader mapped to , for this:
+if !exists( 'mapleader' )
+  let mapleader = ','
+endif
+
 " =====================================================================
 "  Other variable definitions
 " =====================================================================
