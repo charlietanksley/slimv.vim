@@ -45,9 +45,9 @@ if !exists( 'g:paredit_shortmaps' )
 endif
 
 " I like having the leader mapped to , for this:
-if !exists( 'maplocalleader' )
-  let maplocalleader = ','
-endif
+"if !exists( 'mapleader' )
+"  let mapleader = ','
+"endif
 
 " =====================================================================
 "  Other variable definitions
